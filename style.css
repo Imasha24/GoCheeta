@@ -28,7 +28,10 @@
   color: white;
 }
 
-
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
 
 
 
@@ -52,11 +55,11 @@
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
+  margin-top: -10px;
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -119,9 +122,6 @@
   from {opacity: .4}
   to {opacity: 1}
 }
-
-
-
 
 
 
@@ -189,8 +189,8 @@
 
 .footer-bottom{
   background: #000;
-  width: 100vw;
-  padding: 5px;
+  width: 70vw;
+  padding: 30px;
   padding-bottom: 5px;
   text-align: center;
   font-size: 10%;
@@ -218,3 +218,8 @@ display: block;
 .footer-menu ul li a:hover{
   color: #27bcda;
 }
+
+
+
+
+
